@@ -12,14 +12,8 @@ Proposed setup serves an interactive Math landscape visualization
 ### Using Docker Compose (Recommended)
 
 ```bash
-# Build and start the container
+# Build and start the application
 docker-compose up -d
-
-# View logs
-docker-compose logs -f
-
-# Stop the container
-docker-compose down
 ```
 
 ## Access the Application
