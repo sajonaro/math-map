@@ -1,14 +1,11 @@
-# Math Map - Docker Setup
+# The map of moderm mathematics
 
-This setup serves your interactive Mathematics Rhizome visualization via http://localhost/math-map
 
-## Files
+Ever wondered what Geometric Algebra is? What Hoe Lie groups theory is related to differential equations?
+Modern mathematics is a rhizome of related theories (realetad to each other in differnt ways), so this project provides interactive visualization of this map.
 
-- `math-rhizome.jsx` - Your React component
-- `index.html` - HTML wrapper that loads React and your component
-- `nginx.conf` - Nginx configuration for serving at /math-map path
-- `Dockerfile` - Docker image definition
-- `docker-compose.yml` - Docker Compose configuration
+Proposed setup serves an interactive Mathematics Rhizome visualization via http://localhost/math-map
+
 
 ## Quick Start
 
@@ -23,20 +20,6 @@ docker-compose logs -f
 
 # Stop the container
 docker-compose down
-```
-
-### Using Docker directly
-
-```bash
-# Build the image
-docker build -t math-map .
-
-# Run the container
-docker run -d -p 80:80 --name math-map math-map
-
-# Stop the container
-docker stop math-map
-docker rm math-map
 ```
 
 ## Access the Application
@@ -60,3 +43,12 @@ Then access via: http://localhost:80/math-map
 
 ```bash
 docker-compose down
+```
+
+## Files
+
+- `math-rhizome.jsx` - Your React component
+- `index.html` - HTML wrapper that loads React and your component
+- `nginx.conf` - Nginx configuration for serving at /math-map path
+- `Dockerfile` - Docker image definition
+- `docker-compose.yml` - Docker Compose configuration
