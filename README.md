@@ -1,10 +1,10 @@
 # The map of moderm mathematics
 
 
-Ever wondered what Geometric Algebra is? What Hoe Lie groups theory is related to differential equations?
+Ever wondered what Geometric Algebra is? What Lie groups theory has to do with differential equations?
 Modern mathematics is a rhizome of related theories (realetad to each other in differnt ways), so this project provides interactive visualization of this map.
 
-Proposed setup serves an interactive Mathematics Rhizome visualization via http://localhost/math-map
+Proposed setup serves an interactive Math landscape visualization
 
 
 ## Quick Start
