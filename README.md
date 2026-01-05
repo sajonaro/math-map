@@ -2,7 +2,7 @@
 
 
 Ever wondered what Geometric Algebra is? What Lie groups theory has to do with differential equations?
-Modern mathematics is a rhizome of related theories (realetad to each other in differnt ways), so this project provides interactive visualization of this map.
+Modern mathematics is a rhizome of related theories (realetad to each other in different ways), so this project provides interactive visualization of this map.
 
 Proposed setup serves an interactive Math landscape visualization
 
